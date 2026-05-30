@@ -94,10 +94,8 @@ export default function Signup() {
             </button>
             <button
               type="button"
+              onClick={() => navigate("/")}
               className="bg-green-100 w-full py-2 text-green-500 font-semibold rounded-lg hover:bg-green-200 transition"
-              onClick={function () {
-                navigate("/homepage");
-              }}
             >
               Masuk
             </button>

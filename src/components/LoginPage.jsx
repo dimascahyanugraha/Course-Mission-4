@@ -71,7 +71,7 @@ export default function LoginPage() {
 
             {/* BUTTON MASUK */}
             <button
-              type="submit"
+              type="button"
               onClick={() => navigate("/homepage")}
               className="w-full bg-green-500 text-white font-semibold py-2 rounded-md hover:bg-green-600 transition"
             >
